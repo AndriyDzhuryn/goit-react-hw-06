@@ -17,7 +17,7 @@ import contactsReducer from './contactsSlice.js';
 const contactsConfig = {
   key: 'contacts',
   storage: storage,
-  whitelist: ['contacts'], // only navigation will be persisted
+  whitelist: ['contacts'],
 };
 
 export const store = configureStore({
